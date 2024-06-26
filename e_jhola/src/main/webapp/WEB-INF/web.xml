@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>e_jhola</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.AddToCartServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <url-pattern>/AddToCartServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>CartFunctionServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.CartFunctionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CartFunctionServlet</servlet-name>
+    <url-pattern>/CartFunctionServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.AdminServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderFunctionServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.OrderFunctionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>OrderFunctionServlet</servlet-name>
+    <url-pattern>/OrderFunctionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserUpdatesServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.UserUpdatesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UserUpdatesServlet</servlet-name>
+    <url-pattern>/UserUpdatesServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.ChangePasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.UpdateOrderServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <url-pattern>/UpdateOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AddFunctionServlet</servlet-name>
+    <servlet-class>com.e_jhola.servlets.AddFunctionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddFunctionServlet</servlet-name>
+    <url-pattern>/AddFunctionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+   
+
+</web-app>
